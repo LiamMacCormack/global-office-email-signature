@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="utf-8">
+    <title>Global Office Email Signature</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style type="text/css">
+        
+        @import url('https://fonts.googleapis.com/css?family=Muli:300,400,600,700,800');
+
+        body {
+            font-size: 10;
+            margin: 0;
+            margin-top: 1em;
+            padding: 0;
+            font-family: 'Muli';
+        }
+
+        .employee-thumbnail {
+            float: left;
+            height: 5em;
+            width: 5em;
+            border-radius: 50%;
+            margin-top: 1.8em;
+            margin-left: .5em;
+        }
+
+        .employee {
+            float: left;
+            margin-left: 1em;
+        }
+
+        .employee h2 {
+            font-size: 1.2em;
+            margin-top: .5em;
+            margin-bottom: 0;
+            text-transform: uppercase;
+        }
+
+        .employee h3 {
+            font-size: 1em;
+            margin-top: .2em;
+            margin-bottom: 0;
+            color: #93959c;
+        }
+
+        .employee__contact {
+            font-size: .8em;
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .employee__contact span {
+            color: #ff893d;
+        }
+
+        .employee__contact a {
+            text-decoration: none;
+            margin-left: .2em;
+            color: #000;
+            border-bottom: 1px solid #000;
+        }
+
+        .logos {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 1em;
+            position: relative;
+            padding-top: .96em;
+        }
+
+        .logos::before {
+            content: "";
+            position: absolute;
+            border-top: 1.5px solid #93959c;
+            left: 0;
+            top: 0;
+            height: 1px;
+            width: 5%;
+        }
+
+        .logos li {
+            display: inline-block;
+        }
+
+        .logos a {
+            display: block;
+            width: 6.0em;
+            height: 1.5em;
+            margin-right: 1.5em;
+        }
+
+        .logos__juvonno {
+            background-image: url(https://juvonno.com/wp-content/uploads/2018/01/Primary_CMYK-1-e1517330651882.png);
+            background-size: 100%;
+        }
+
+        .logos__mehd {
+            background-image: url(http://mehdapp.com/wp-content/uploads/2017/12/Mehd-Logo_Blue-1-e1513194836553.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+    </style>
+</head> 
+<body>
+    <div class="email-signature">
+        <img class="employee-thumbnail" src="https://juvonno.com/wp-content/uploads/2018/01/me_headshot.png">
+        <div class="employee">
+            <h2>Liam MacCormack</h2>
+            <h3>Director of Marketing | Global Office Software</h3>
+            <ul class="employee__contact">
+                <li><span>C. </span> &nbsp; <a href="tel:1.866.643.3041">1-866-643-3041 Ex. 10</a></li>
+                <li><span>E. </span> &nbsp; <a href="emailto:liam@globalofficesoftware.com">liam@globalofficesoftware.com</a></li>
+                <li><span>W. </span><a href="https://globalofficesoftware.com">globalofficesoftware.com</a></li>
+            </ul>
+            <ul class="logos">
+                <li><a class="logos__juvonno" href="https://juvonno.com"></a></li>
+                <li><a class="logos__mehd" href="https://mehdapp.com"></a></li>
+            </ul>
+        </div>
+    </div>    
+</body>
+
+</html>
